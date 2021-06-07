@@ -6,5 +6,13 @@ const POKE_API =
   "https://raw.githubusercontent.com/" +
     "PokeAPI/sprites/master/sprites/pokemon/";
   
-    console.log(POKE_API)
 
+/** Individual Pokemon card. */
+
+function Pokecard(props) {
+    let imgSrc = `${POKE_API}${props.id}.png`;
+
+}
+
+
+console.log(Pokecard)
