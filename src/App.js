@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Pokecard.js from "./Pokecard.js";
+import Pokecard from "./Pokecard.js";
 
 function App() {
   return (
