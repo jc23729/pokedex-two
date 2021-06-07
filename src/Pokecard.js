@@ -12,7 +12,15 @@ const POKE_API =
 function Pokecard(props) {
     let imgSrc = `${POKE_API}${props.id}.png`;
 
+    return (
+        <div className="Pokecard">
+            <div className = "Pokecard-title"></div>
+
+        </div>
+    )
+
 }
 
 
-console.log(Pokecard)
+export default Pokecard;
+
