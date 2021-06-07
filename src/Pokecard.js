@@ -13,11 +13,13 @@ function Pokecard(props) {
     let imgSrc = `${POKE_API}${props.id}.png`;
 
     return (
-        <div className="Pokecard">
-            <div className = "Pokecard-title"></div>
-
-        </div>
-    )
+      <div className="Pokecard">
+        <div className="Pokecard-title"></div>
+        <div className="Pokecard-title"></div>
+        <div className="Pokecard-title"></div>
+        <div className="Pokecard-title"></div>
+      </div>
+    );
 
 }
 
