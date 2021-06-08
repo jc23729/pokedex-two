@@ -1,12 +1,19 @@
 import logo from './logo.svg';
 import Pokecard from "./Pokecard.js";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <Pokecard
-        id={p.id}
-        name />
+      <div className="Pokedex-cards">
+        {props.pokemon.map((p) => (
+          <Pokecard
+            id={p.id}
+            name={p.name}
+            type={p.type}
+            exp={p.base_experience}
+          />
+        ))}
+      </div>
     </div>
   );
 }
