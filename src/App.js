@@ -1,10 +1,10 @@
 import logo from './logo.svg';
-import Pokecard from "./Pokecard.js";
+import Pokedex from "./Pokedex";
 
 function App() {
   return (
     <div className="App">
-    
+  
     </div>
   );
 }
